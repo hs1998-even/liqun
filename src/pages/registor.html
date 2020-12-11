@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/registor.min.css">
+</head>
+<body>
+    <!-- top -->
+    <div class="top">
+        <div class="logo">
+            <a href="#">
+                <img src="../img/logo_03.jpg" alt="">
+            </a>
+        </div>
+        <div class="adv">
+            <ul>
+                <li class="adv-1">
+                    <i></i>
+                    <span>利群品质</span>
+                </li>
+                <li class="adv-2">
+                    <i></i>
+                    <span>诚信保障</span>
+                </li>
+                <li class="adv-3">
+                    <i></i>
+                    <span>在线交易</span>
+                </li>
+                <li class="adv-4">
+                    <i></i>
+                    <span>免费发布</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- container -->
+    <div class="container">
+        <div class="register-box">
+            <div class="register-contain" style="display: block;">
+                <div class="reg-account reg">
+                    <div class="reg-step">
+                        <ul>
+                            <li class="reg-one">
+                                <i class="reg-a"></i>
+                                手机验证
+                            </li>
+                            <li>
+                                <i class="reg-b"></i>
+                                填写账号信息
+                            </li>
+                            <li>
+                                <i class="reg-c"></i>
+                                完成注册
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="height:20px"></div>
+                    <div class="reg-l">
+                        <ul>
+                            <li class="reg-info">
+                                <i>*</i>
+                                &nbsp;&nbsp;手机号:
+                            </li>
+                            <li class="reg-info">
+                                <i>*</i>
+                                &nbsp;&nbsp;图形验证码:
+                            </li>
+                            <li class="reg-info">
+                                <i>*</i>
+                                &nbsp;&nbsp;短信验证码:
+                            </li>
+                            <li class="reg-info">
+                                <i>*</i>
+                                &nbsp;&nbsp;密码:
+                            </li>
+                            <li class="reg-info">
+                                <i>*</i>
+                                &nbsp;&nbsp;确认密码:
+                            </li>
+                            <li class="reg-info">
+                                邀请码:
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reg-r">
+                        <ul>
+                            <li class="reg-form" >
+                                <input type="text" id="reg-number">
+                                <span class="reg-cue orange" id="number" style="display: none;">
+                                    <i></i>
+                                    请输入正确的手机号
+                                </span>
+                            </li>
+                            <li class="reg-form" >
+                                <input type="text" class="ipt-imgbar" id="reg-imgbar">
+                                <img src="../img/imgbar.png" alt="">
+                                <span class="reg-cue orange" style="display: none;" id="imgbar">
+                                    <i></i>
+                                    请输入正确的验证码
+                                </span>
+                            </li>
+                            <li class="reg-form" >
+                                <input type="text" class="ipt-msgbar" id="reg-msgbar">
+                                <div class="msgbar">获取短信验证</div>
+                                <span class="reg-cue orange" style="display: none;" id="msgbar">
+                                    <i></i>
+                                    请输入正确手机验证码
+                                </span>
+                            </li>
+                            <li class="reg-form" >
+                                <input type="password" id="reg-pw">
+                                <span class="reg-cue orange" id="pw" style="display: none;" >
+                                    <i></i>
+                                    建议使用字母、数字和符号两种及以上的组合，6-20个字符
+                                </span>
+                            </li>
+                            <li class="reg-form">
+                                <input type="password" id="reg-pw-again">
+                                <span class="reg-cue orange" id="again"  style="display: none;">
+                                    <i></i>
+                                    两次输入的密码不一致，请重新输入!
+                                </span>
+                            </li>
+                            <li class="reg-form">
+                                <input type="text">
+                                <span class="reg-cue name-cue" style="top: 40px;left: -10px;">
+                                    <i></i>
+                                    如果没有邀请码，请忽略，不影响注册
+                                </span>
+                            </li>
+                            <li class="reg-form">
+                                <span class="reg-cue" style="top: 40px;left: -10px;">
+                                    注册即代表同意
+                                    <a href="#" style="color:red">《利群采购平台用户协议及隐私政策》</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="gonext">立即注册</button>
+                    <span class="gologin">
+                        我已注册过，立即 
+                        <a href="./login.html">登录</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foot -->
+    <div class="foot">
+        <ul>
+            <li>
+                <a href="#" style="color:rgb(153,153,153);">鲁ICP备09054331号-2</a>
+                Copyright © 2004 - 2020 利群集团青岛电子商务有限公司 版权所有 
+            </li>
+        </ul>
+    </div>
+    <script src="../js/registor.min.js"></script>
+    <script src="../lib/jquery-1.12.4.min.js"></script>
+    <script src="../lib/cookie.min.js"></script>
+</body>
+</html>

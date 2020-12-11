@@ -1,0 +1,84 @@
+$('#span1').click(function(){
+    $('#span1').css("font-size","18px");
+    $('#span1').css("background","rgba(0,0,0,0.2)");
+    $('#span1').css("border-radius","2px")
+    $('#span2').css("font-size","16px");
+    $('#span2').css("background","rgba(0,0,0,0)");
+    $('#span2').css("border-radius","2px")
+    $('#span3').css("font-size","16px");
+    $('#span3').css("background","rgba(0,0,0,0)");
+    $('#span3').css("border-radius","2px")
+    $('.ul1').css("display","block");
+    $('.ul2').css("display","none");
+    $('.ul3').css("display","none");
+})
+$('#span2').click(function(){
+    $('#span1').css("font-size","16px");
+    $('#span1').css("background","rgba(0,0,0,0)");
+    $('#span1').css("border-radius","2px")
+    $('#span2').css("font-size","18px");
+    $('#span2').css("background","rgba(0,0,0,0.2)");
+    $('#span2').css("border-radius","2px")
+    $('#span3').css("font-size","16px");
+    $('#span3').css("background","rgba(0,0,0,0)");
+    $('#span3').css("border-radius","2px")
+    $('.ul1').css("display","none");
+    $('.ul2').css("display","block");
+    $('.ul3').css("display","none");
+})
+$('#span3').click(function(){
+    $('#span1').css("font-size","16px");
+    $('#span1').css("background","rgba(0,0,0,0)");
+    $('#span1').css("border-radius","2px")
+    $('#span2').css("font-size","16px");
+    $('#span2').css("background","rgba(0,0,0,0)");
+    $('#span2').css("border-radius","2px")
+    $('#span3').css("font-size","18px");
+    $('#span3').css("background","rgba(0,0,0,0.2)");
+    $('#span3').css("border-radius","2px")
+    $('.ul1').css("display","none");
+    $('.ul2').css("display","none");
+    $('.ul3').css("display","block");
+})
+$('#span4').click(function(){
+    $('#span4').css("font-size","18px");
+    $('#span4').css("background","rgba(0,0,0,0.2)");
+    $('#span4').css("border-radius","2px")
+    $('#span5').css("font-size","16px");
+    $('#span5').css("background","rgba(0,0,0,0)");
+    $('#span5').css("border-radius","2px")
+    $('#span6').css("font-size","16px");
+    $('#span6').css("background","rgba(0,0,0,0)");
+    $('#span6').css("border-radius","2px")
+    $('.ul4').css("display","block");
+    $('.ul5').css("display","none");
+    $('.ul6').css("display","none");
+})
+$('#span5').click(function(){
+    $('#span4').css("font-size","16px");
+    $('#span4').css("background","rgba(0,0,0,0)");
+    $('#span4').css("border-radius","2px")
+    $('#span5').css("font-size","18px");
+    $('#span5').css("background","rgba(0,0,0,0.2)");
+    $('#span5').css("border-radius","2px")
+    $('#span6').css("font-size","16px");
+    $('#span6').css("background","rgba(0,0,0,0)");
+    $('#span6').css("border-radius","2px")
+    $('.ul4').css("display","none");
+    $('.ul5').css("display","block");
+    $('.ul6').css("display","none");
+})
+$('#span6').click(function(){
+    $('#span4').css("font-size","16px");
+    $('#span4').css("background","rgba(0,0,0,0)");
+    $('#span4').css("border-radius","2px")
+    $('#span5').css("font-size","16px");
+    $('#span5').css("background","rgba(0,0,0,0)");
+    $('#span5').css("border-radius","2px")
+    $('#span6').css("font-size","18px");
+    $('#span6').css("background","rgba(0,0,0,0.2)");
+    $('#span6').css("border-radius","2px")
+    $('.ul4').css("display","none");
+    $('.ul5').css("display","none");
+    $('.ul6').css("display","block");
+})

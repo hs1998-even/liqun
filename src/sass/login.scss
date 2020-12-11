@@ -1,0 +1,239 @@
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+    font-size: 14px;
+}
+ul{
+	list-style: none;
+}
+a{
+    color: #666666;
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+input{
+    outline:none;
+}
+i{
+    font-style: normal;
+}
+//top
+.top{
+    width: 1200px;
+    position: relative;
+    height: 110px;
+    margin: 0 auto;
+    overflow: hidden;
+    .logo{
+        width: 236px;
+        height: 52px;
+        margin-top: 24px;
+        float: left;
+        a{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .adv{
+        height: 26px;
+        margin-top: 37px;
+        float: right;
+        li{
+            position: relative;
+            float: left;
+            height: 26px;
+            margin-left: 40px;
+            padding-left: 35px;
+            overflow: hidden;
+            i{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 35px;
+                height: 100%;
+            }
+            span{
+                display: inline-block;
+                height: 100%;
+                line-height: 26px;
+                line-height: 29px;
+                font-size: 18px;
+                color: #666666;
+            }
+        }
+        .adv-1{
+            i{
+                background: url(../img/login-icon.png) no-repeat -211px -45px;
+            }
+        }
+        .adv-2{
+            i{
+                background: url(../img/login-icon.png) no-repeat -118px -45px;
+            }
+        }
+        .adv-3{
+            i{
+                background: url(../img/login-icon.png) no-repeat -164px -45px;
+            }
+        }
+        .adv-4{
+            i{
+                background: url(../img/login-icon.png) no-repeat -260px -45px;
+            }
+        }
+    }
+}
+//middle
+.middle{
+    height: 475px;
+    background: gray;
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    .middle-wrap{
+        width: 100%;
+        height: 475px;
+        background: #ffffff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        img{
+            width: 1920px;
+            height: 475px;
+            margin: 0 auto;
+        }
+    }
+    .middle-contain{
+        width: 1200px;
+        margin: 0 auto;
+        .login{
+            position: relative;
+            float: right;
+            width: 400px;
+            margin-top: 70px;
+            background-color: #ffffff;
+            z-index: 5;
+            .login-tit{
+                width: 360px;
+                height: 20px;
+                margin: 20px auto;
+                h3{
+                    float: left;
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                a{
+                    font-size: 14px;
+                    color: #e60012;
+                    float: right;
+                    line-height: 20px;
+                }
+            }
+            .login-false{
+                width: 360px;
+                height: 16px;
+                margin: 0 auto 10px;
+                display: none;
+                img{
+                    width: 16px;
+                    height: 16px;
+                    float: left;
+                    margin-right: 10px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #cb384b;
+                    line-height: 16px;
+                }
+            }
+            .login-form{
+                width: 360px;
+                margin: 0 auto;
+                .form-group{
+                    width: 360px;
+                    position: relative;
+                    margin-bottom: 25px;
+                    .login-label{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 36px;
+                        height: 44px;
+                        background: url(../img/login-icon.png) no-repeat -320px -37px;
+                    }
+                    .password-label{
+                        background-position: -360px -37px;
+                    }
+                    input{
+                        width: 324px;
+                        height: 44px;
+                        padding: 0 0 0 36px;
+                        font-size: 16px;
+                        line-height: 42px;
+                        color: #333333;
+                        background-color: #fff;
+                        border: 1px solid #cccccc;
+                    }
+                }
+                .form-oth{
+                    position: relative;
+                    margin-bottom: 25px;
+                    overflow: hidden;
+                    .forgetPW{
+                        font-size: 12px;
+                        float: right;
+                        color: #666666;
+                    }
+                    span{
+                        top: 40px;
+                        left: -10px;
+                        color: #A1A1A1;
+                    }
+                }
+                .login-btn{
+                    width: 360px;
+                    height: 44px;
+                    margin-top: 5px;
+                    color: #ffffff;
+                    background-color: #e60012;
+                    font-size: 18px;
+                    font-weight: 900;
+                    text-decoration: none;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+//foot
+.foot{
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+    ul{
+        display: inline-block;
+        font-size: 14px;
+        line-height: 14px;
+        width: 100%;
+        margin: 6px auto;
+        li{
+            height: 14px;
+            margin-right: 15px;
+            float: left;
+            color: rgb(153,153,153);
+            text-align: center;
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+}
